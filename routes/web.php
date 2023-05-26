@@ -57,7 +57,7 @@ Route::get('sort',function(){
           ('Laravel Basic Testing Mail');
        $message->from('pankaj.singh910025@gmail.com','Virat Gandhi');
     });
-    echo "Basic Email Sent. Check your inbox.";
+    echo "Basic Email Sent";
     
 });
 Route::get('/bl/{id}', [BlogController::class, 'bl']);
